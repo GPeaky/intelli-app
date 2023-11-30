@@ -46,5 +46,13 @@ impl Sandbox for Counter {
 }
 
 pub fn main() -> iced::Result {
-    Counter::run(Settings::default())
+    Counter::run(Settings {
+        window: iced::window::Settings {
+            transparent: true,
+            position: iced::window::Position::Centered,
+            ..iced::window::Settings::default()
+        },
+        antialiasing: true,
+        ..Settings::default()
+    })
 }
