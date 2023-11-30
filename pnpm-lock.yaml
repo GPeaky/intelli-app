@@ -9,7 +9,7 @@ dependencies:
     specifier: ^1.5.1
     version: 1.5.1
   solid-js:
-    specifier: ^1.7.8
+    specifier: ^1.8.6
     version: 1.8.6
 
 devDependencies:
@@ -17,13 +17,13 @@ devDependencies:
     specifier: ^1.5.6
     version: 1.5.6
   typescript:
-    specifier: ^5.0.2
+    specifier: ^5.3.2
     version: 5.3.2
   vite:
-    specifier: ^4.4.4
+    specifier: ^4.5.0
     version: 4.5.0
   vite-plugin-solid:
-    specifier: ^2.7.0
+    specifier: ^2.7.2
     version: 2.7.2(solid-js@1.8.6)(vite@4.5.0)
 
 packages:
@@ -760,7 +760,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001565
-      electron-to-chromium: 1.4.597
+      electron-to-chromium: 1.4.598
       node-releases: 2.0.13
       update-browserslist-db: 1.0.13(browserslist@4.22.1)
     dev: true
@@ -807,8 +807,8 @@ packages:
       ms: 2.1.2
     dev: true
 
-  /electron-to-chromium@1.4.597:
-    resolution: {integrity: sha512-0XOQNqHhg2YgRVRUrS4M4vWjFCFIP2ETXcXe/0KIQBjXE9Cpy+tgzzYfuq6HGai3hWq0YywtG+5XK8fyG08EjA==}
+  /electron-to-chromium@1.4.598:
+    resolution: {integrity: sha512-0JnipX0scPUlwsptQVCZggoCpREv+IrVD3h0ZG+sldmK9L27tSV3QjV8+QdaA4qQTzDf3PluNS45YYJky1oASw==}
     dev: true
 
   /esbuild@0.18.20:
