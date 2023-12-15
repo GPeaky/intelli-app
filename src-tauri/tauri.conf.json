@@ -10,24 +10,6 @@
     "version": "0.1.0"
   },
   "tauri": {
-    "allowlist": {
-      "all": false,
-      "shell": {
-        "all": false,
-        "open": true
-      },
-      "window": {
-        "all": false,
-        "close": true,
-        "hide": true,
-        "show": true,
-        "maximize": true,
-        "minimize": true,
-        "unmaximize": true,
-        "unminimize": true,
-        "startDragging": true
-      }
-    },
     "bundle": {
       "active": true,
       "targets": "msi",
@@ -53,5 +35,10 @@
         "height": 750
       }
     ]
+  },
+  "plugins": {
+    "shell": {
+      "open": true
+    }
   }
 }
