@@ -15,6 +15,17 @@
       "shell": {
         "all": false,
         "open": true
+      },
+      "window": {
+        "all": false,
+        "close": true,
+        "hide": true,
+        "show": true,
+        "maximize": true,
+        "minimize": true,
+        "unmaximize": true,
+        "unminimize": true,
+        "startDragging": true
       }
     },
     "bundle": {
@@ -36,9 +47,10 @@
       {
         "fullscreen": false,
         "resizable": true,
+        "decorations": false,
         "title": "intelli-app",
-        "width": 1000,
-        "height": 600
+        "width": 1425,
+        "height": 750
       }
     ]
   }
