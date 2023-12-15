@@ -19,13 +19,13 @@ const TitleBar = () => {
         <div data-tauri-drag-region class="titlebar">
 
             <div class="titlebar-button" onClick={minimize} >
-                <IconMinus size={20} />
+                <IconMinus size={14} />
             </div>
             <div class="titlebar-button" onClick={maximize}>
-                <IconSquare size={14} />
+                <IconSquare size={10} />
             </div>
             <div class="titlebar-button" onClick={close}>
-                <IconX size={20} />
+                <IconX size={14} />
             </div>
         </div>
     )
