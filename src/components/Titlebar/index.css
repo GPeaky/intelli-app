@@ -1,5 +1,5 @@
 .titlebar {
-    height: 4vh;
+    height: 30px;
     background: #222;
     user-select: none;
     display: flex;
