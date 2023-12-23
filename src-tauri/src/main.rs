@@ -20,6 +20,8 @@ fn main() {
                 set_shadow(&main_window, true).expect("Failed to set shadow");
             }
 
+            println!("Hello from setup!");
+
             Ok(())
         })
         .invoke_handler(tauri::generate_handler![greet])
