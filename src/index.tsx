@@ -1,6 +1,6 @@
 /* @refresh reload */
 import "./styles.css";
-import App from "./App";
+import IntelliApp from "./IntelliApp";
 import { render } from "solid-js/web";
 
-render(() => <App />, document.getElementById("root") as HTMLElement);
+render(() => <IntelliApp />, document.getElementById("root") as HTMLElement);

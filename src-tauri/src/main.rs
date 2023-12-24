@@ -1,5 +1,6 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
+// use tauri::window::Color;
 use tauri::Manager;
 #[cfg(target_os = "windows")]
 use window_shadows::set_shadow;
@@ -19,9 +20,7 @@ fn main() {
                 let main_window = app.get_window("main").unwrap();
                 set_shadow(&main_window, true).expect("Failed to set shadow");
             }
-
             println!("Hello from setup!");
-
             Ok(())
         })
         .invoke_handler(tauri::generate_handler![greet])

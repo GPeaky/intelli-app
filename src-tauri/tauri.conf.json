@@ -31,8 +31,25 @@
         "resizable": true,
         "decorations": false,
         "title": "Intelli App",
+        "url": "/",
         "width": 470,
         "height": 600
+      },
+      {
+        "fullscreen": false,
+        "resizable": false,
+        "decorations": false,
+        "transparent": true,
+        "shadow": false,
+        "alwaysOnTop": true,
+        "visible": false,
+        "title": "Standings",
+        "label": "standings",
+        "x": 40,
+        "y": 80,
+        "url": "/standings",
+        "width": 300,
+        "height": 800
       }
     ]
   },

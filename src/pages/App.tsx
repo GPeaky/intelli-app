@@ -1,7 +1,7 @@
-import TitleBar from "./components/Titlebar";
 import { createSignal } from "solid-js";
+import TitleBar from "../components/Titlebar";
 
-function App() {
+function Home() {
     const [status, setStatus] = createSignal<boolean>(false);
 
     return (
@@ -20,4 +20,4 @@ function App() {
     );
 }
 
-export default App;
+export default Home;
